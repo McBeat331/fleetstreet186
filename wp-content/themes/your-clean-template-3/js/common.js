@@ -152,7 +152,7 @@ $(document).ready(function(){
         var destination = $('#secondPage1').offset().top;
         $('html').animate({ scrollTop: destination }, 1100);
     });
-    $("#3rdPage li a.load").on('click',function(e) {
+    $("#3rdPage").on('click','li a.load',function(e) {
         e.preventDefault();
         var id_post=$(this).closest("li").attr('id');
         $.ajax({
