@@ -170,7 +170,7 @@ $(document).ready(function(){
                 $('#select1').each(function(){
                     $(this).siblings('p').text( $(this).children('option:selected').text() );
                 });
-                
+                  
             }
         });
     });
